@@ -1,0 +1,19 @@
+import pyautogui
+
+# Move the mouse to a specific position on the screen
+pyautogui.moveTo(100, 100)
+
+# Click the left mouse button
+pyautogui.click()
+
+# Drag the mouse to a new position
+pyautogui.dragTo(200, 200)
+
+# Scroll up by 10 units
+pyautogui.scroll(10)
+
+# Get the current mouse position
+x, y = pyautogui.position()
+print(f"Current mouse position: ({x}, {y})")
+Make sure you have the pyautogui library installed before running this code. 
+pip install pyautogui
